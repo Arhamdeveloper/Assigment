@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    
+
+    <script>
+        var a=prompt("ATM \n 1------>Check Balance \n 2------>Withdraw \n 3------>Deposit \n 4------>Exit")
+        var c= 1234
+        if(a==1){
+            var b=prompt("If you want to Check Balance please enter pin code first")
+            var c= 1234
+            if(b==c){ 
+                var f= 4000
+                alert("Your Balance is " + f)
+            }
+            else{
+                alert("Please enter correct pin code")
+            }
+        }
+        else if(a==2){
+            var d=prompt("How many balance you want to withdraw")
+            var e=prompt("Please enter your pin code before withdraw")
+            
+                
+                   if(e==c){
+                    alert("You successfully withdraw " + d + " Rs")
+                   
+                   }
+                 
+                   else{
+                    alert("Please enter valid pin code")
+                   }
+                   
+        }
+        else if(a==3){
+            var h=prompt("How many balance you want to Deposit")
+            var i=prompt("Please enter your pin code before Deposit")
+            
+                
+                   if(i==c){
+                    alert("You successfully Deposit " + h + " Rs")
+                    
+                   
+                   }
+                 
+                   else{
+                    alert("Please enter valid pin code")
+                   }
+                   
+        }
+        else if(a==4){
+            var t=prompt("Are you confirm you want to exit")
+            
+        }
+        else{
+            alert("Please enter number between 1 and 4")
+        }
+    </script>
+</body>
+</html>

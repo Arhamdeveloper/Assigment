@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    
+    <script>
+        var a=prompt("Enter your Obtained Mark i will calculate your percentage")
+        var b=prompt("Enter your Total Mark")
+        var c= a/b*100
+        alert(`Your percentage is ${c}%`)
+        if(c>=90){
+            alert("Your grade is A++")
+        }
+        else if(c>=80){
+            alert("Your grade is A+")
+        }       
+        else if(c>=70){
+            alert("Your grade is A")
+        }
+        else if(c>=60){
+            alert("Your grade is B")
+        } 
+        else if(c>=50){
+            alert("Your grade is C")
+        } 
+        else if(c>=33){
+            alert("Your grade is D")
+        } 
+        else if(c<=33){
+            alert("Your grade is F")
+        } 
+    </script>
+</body>
+</html>
